@@ -1,0 +1,44 @@
+.logo{
+    height: 156px;
+    width: 301px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+    margin-top: 12%;
+}
+
+.A{
+    background-color:#f0f2f5;
+    height: 700px;
+    align-items: center;
+}
+.motto{ 
+    
+    white-space: nowrap;
+    font-size: calc(100% + 1vw + 1vh);
+    
+}
+.logdiv{
+ width: 65%;
+ height: 300px;
+ margin-top: 20%;
+ display: flex;
+ align-items: center;
+
+}
+.login{
+   
+    background-color: white;
+    padding:10px;
+    border-radius: 6px;
+    margin-right: auto;
+    align-content: center;
+    width:max-content;
+}
+ @media (max-width: 767px) {
+    .logdiv{
+       padding-left: 27%;
+       margin-top: 10%;
+    }
+    
+  } 
